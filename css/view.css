@@ -1,0 +1,9 @@
+*{margin: 0px;padding: 0px;}
+/* 文本内容通用 */
+#view{
+	width: 640px;
+	margin: auto;
+}
+#view img{
+	margin: auto;
+}
