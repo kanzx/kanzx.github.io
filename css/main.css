@@ -4,8 +4,9 @@ body{
 	font-size: 18px;
 }
 #main{
-	width: 100%;
+	width: 75%;
 	height: 100%;
+	margin: auto;
 	background: rgba(0, 0, 0, 0.8);
 }
 #nav1{
@@ -89,4 +90,12 @@ body{
 	font-size: 22px;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	#main{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
 }
