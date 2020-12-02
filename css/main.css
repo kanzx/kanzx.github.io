@@ -4,10 +4,18 @@ body{
 	font-size: 18px;
 }
 #main{
-	width: 75%;
+	width: 60%;
 	height: 100%;
 	margin: auto;
 	background: rgba(0, 0, 0, 0.8);
+}
+#heng_fu{
+	height: 150px;
+	border-radius: 20px;
+	background-image: url(../img/heng_fu.png);
+	background-repeat: no-repeat;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
 }
 #nav1{
 	height: 50px;
@@ -18,7 +26,6 @@ body{
 	height: 50px;
 	border: solid 2px #FFFFFF;
 	border-radius: 20px;
-	margin-top: 10px;
 }
 #nav2 li{
 	float: left;
@@ -92,7 +99,7 @@ body{
 	cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	#main{
 		width: 100%;
 		height: 100%;
