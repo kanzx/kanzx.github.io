@@ -8,10 +8,15 @@
 		<meta name="author" content="真相广传" />
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link rel="shortcut icon" href="favicon.ico">
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 <body>
 	<div id="main">
+		<script type="text/javascript">
+			if (navigator.userAgent.match(/windows/i) != "Windows"){
+				var main_id = document.getElementById("main");
+				main_id.style.width="100%";
+			}
+		</script>
 		<div id="nav1">
 			<ul>
 				<li><a href="https://jianming.ga/9981/zx/zl/传奇时代-特别节目.mp4" target="_view1">首页</a></li>
@@ -80,3 +85,4 @@
 	</div>
 </body>
 </html>
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
