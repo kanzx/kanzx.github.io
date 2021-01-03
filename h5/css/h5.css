@@ -1,0 +1,162 @@
+*{margin: 0px;padding: 0px;-webkit-user-select: none;-webkit-touch-callout: none;}
+html,body{width: 100%;height: 100%;font-family: "KaiTi";}
+#wraper{
+	width: 25rem;height: 35rem;
+	margin: auto;
+	background-image: url(../img/iphone.png);
+	background-repeat: no-repeat;
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.main{
+	width: 79%;height: 75%;
+	overflow: hidden;
+	box-shadow: 0.25rem 0.25rem 0 black, 0.25rem -0.25rem 0 black, -0.25rem -0.25rem 0 black, -0.25rem 0.25rem 0 black;
+	position: relative;
+	top: 4rem;
+	left: 2.5rem;
+}
+.main_h5{
+	width: 100%;height: 100%;
+	overflow: hidden;
+	border-radius: 3rem;
+}
+#content{
+	width: 100%;height: 100%;
+	transition: all 2s linear;
+	position: relative;
+}
+.content_h5{
+	width: 100%;height: 100%;
+	border-radius: 5rem;
+}
+.page{width: 100%;height: 100%;position: relative;}
+#page1{
+	background: #f00;
+}
+#page2{
+	background: #0f0;
+}
+#page3{
+	background: #00f;
+}
+@keyframes page_hua_dong{
+	0%{width: 100%;height: 100%;}
+	100%{width: 0%;height: 0%;}
+}
+@keyframes page_hua_dong_2{
+	0%{width: 100%;height: 100%;}
+	100%{width: 0%;height: 0%;}
+}
+.hua_dong{
+	transform: scale(0.2);
+	pointer-events: none;
+	position: absolute;
+	top: 10rem;left: 1rem;
+	animation: hua_dong_key 3s infinite;
+	z-index: 1;
+}
+.hua_dong_h5{
+	transform: scale(0.2);
+	pointer-events: none;
+	position: absolute;
+	top: 29rem;left: 0.6rem;
+	animation: hua_dong_key_2 3s infinite;
+	z-index: 1;
+}
+#hua_dong_2{
+	font-size: 5rem;font-weight: bold;color: rgba(255, 255, 255, 1);
+	transform: rotateZ(-90deg);
+	position: absolute;
+	bottom: 2rem;left: 25rem;
+	animation: hua_dong_key_3 3s infinite;
+	z-index: 1;
+	display: none;
+}
+audio{width: 0rem;height: 0rem;float: right;}
+img{pointer-events: none;width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.title_1{font-size: 2.5rem;left: 1.5rem;top: 3rem;animation: title_1_suo_xiao 3s;}
+.title_2{font-size: 1.5rem;left: 7rem;top: 4rem;animation: dan_ru 7s;}
+#title_1,#title_2{
+	color: blue;
+	font-weight: bold;
+	text-shadow: 0.25rem 0.25rem 0 white, 0.25rem -0.25rem 0 white, -0.25rem -0.25rem 0 white, -0.25rem 0.25rem 0 white;
+	position: absolute;
+}
+.title_1_h5{font-size: 8rem;left: 5rem;top: 4rem;animation: title_1_suo_xiao_h5 3s;}
+.title_2_h5{font-size: 5rem;left: 22rem;top: 7rem;animation: dan_ru 7s;}
+#heart span{display: inline-block;}
+.heart_left, .heart_right{
+	width: 1.25rem; height: 1.875rem; background-color: red;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.heart_left{transform: rotateZ(-45deg);}
+.heart_right{transform: translateY(-2.2rem) translateX(0.5rem) rotateZ(45deg);}
+#heart{
+	animation: beat 1.5s infinite;
+	position: absolute;
+	left: 25.8rem;
+	top: 17.5rem;
+}
+@keyframes beat{
+	30%{transform: scale(1.3);}
+	100%{transform: scale(1);}
+}
+#ye_1{top: 20rem;}
+#ye_2{top: 22rem;}
+#ye_1,#ye_2{
+	border: solid 0.0625rem;
+	width: 3.5rem;height: 1.5rem;
+	border-radius: 1.25rem;
+	position: absolute;
+	left: 25rem;
+}
+#ye_1:hover,#ye_2:hover{
+	background-color: skyblue;
+	cursor: pointer;
+}
+
+@keyframes hua_dong_key{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		top: 9rem;
+		opacity: 1;
+	}
+}
+@keyframes hua_dong_key_2{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		top: 25rem;
+		opacity: 1;
+	}
+}
+@keyframes hua_dong_key_3{
+	0%{
+		color: rgba(255, 255, 255, 1)
+	}
+	100%{
+		bottom: 8rem;
+		color: rgba(255, 255, 255, 0)
+	}
+}
+/* 淡入 */
+@keyframes dan_ru{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+/* 缩小*/
+@keyframes title_1_suo_xiao{
+	0%{font-size: 5rem;opacity: 0;}
+	100%{font-size: 2.5rem;opacity: 1;}
+}
+@keyframes title_1_suo_xiao_h5{
+	0%{font-size: 12rem;opacity: 0;}
+	100%{font-size: 8rem;opacity: 1;}
+}
+
+
