@@ -35,7 +35,6 @@ var moveY,
 content.addEventListener('touchstart', content_start, false );
 content.addEventListener('touchmove', content_move, false);
 content.addEventListener('touchend', content_end, false);
-page1.style.display='block';
 function content_start(e) {
 	console.log(e)
 	var touch = e.touches[0];
@@ -57,7 +56,21 @@ function content_move(e) {
 		if(index == 3) {
 		  return false;
 		}
-		page1.style.animation = 'page_hua_dong_2 3s';
+		console.log("高度："+main_item_height);
+		var index2 = index+1;
+		// setTimeout(function(){},3000);
+		// content.style.webkitTransform = 'translateY(-'+(main_item_height*index)+'px)';
+		// document.getElementById('page'+index).style.animation="page_hua_dong 3s";
+		
+		for(var i=100;i=0;i--){
+			console.log("百分比："+i+'%');
+			document.getElementById('page'+index).style.height=i+'%';
+			document.getElementById('page'+index).style.height=i+'%';
+		}
+		setTimeout(function(){document.getElementById('page'+index).style.display="none";},3000);
+		document.getElementById('page'+index2).style.display="block";
+		// setTimeout(function(){document.getElementById('page'+index+'_content').style.display="none"},3000);
+		// document.getElementById('page'+index2+'_content').style.display="block";
 	}
 	//上一页
 	else if(moveY > 0) {
