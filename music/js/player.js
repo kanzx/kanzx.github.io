@@ -177,6 +177,27 @@ class Musics {
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/当法呈现在面前（钢琴独奏）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/当法呈现在面前（钢琴独奏）.jpg'
+			},
+			{
+			    id: 23,
+			    title: '师恩颂（管弦乐伴奏）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/师恩颂（管弦乐伴奏）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/师恩颂（管弦乐伴奏）.jpg'
+			},
+			{
+			    id: 24,
+			    title: '师恩颂 - 2006小合唱',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/师恩颂 - 2006小合唱.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/师恩颂 - 2006小合唱.jpg'
+			},
+			{
+			    id: 25,
+			    title: '找回真我（小提琴、钢琴、bE调）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/找回真我（小提琴、钢琴、bE调）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/找回真我（小提琴、钢琴、bE调）.jpg'
 			}
         ]
     }
