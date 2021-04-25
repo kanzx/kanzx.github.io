@@ -1,6 +1,6 @@
 /* 播放器大小 */
 .music-player {
-	width: 90%;
+	width: 95%;
 }
 
 /* 播放器位置 */
@@ -52,7 +52,7 @@
 /* 播放器主体 */
 .music-player__main {
     height: 180px;
-    padding: 25px;
+    /* padding: 25px; */
     -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
     border-radius: 10px;
@@ -84,6 +84,9 @@
     background: url(../img/cd.png) no-repeat center;
     background-size: 100%;
     position: relative;
+	top: 1rem;
+	left: 1rem;
+	z-index: 1;
 }
 
 /* 唱片指针 */
@@ -129,8 +132,9 @@
 
 .music-player__controls {
     width: 330px;
-    height: 130px;
-    float: right;
+    height: 150px;
+	position: relative;
+	top: 1rem;
 }
 
 /* 歌曲信息 */
@@ -138,8 +142,9 @@
     width: 100%;
     height: 50px;
     margin-bottom: 15px;
+	position: absolute;
+	left: 50%;
 }
-
 .music__info .music__info--title,
 .music__info .music__info--singer {
     color: #fff;
@@ -159,11 +164,22 @@
 
 .player-control {
     width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 3rem;
 }
 
 .player-control__content {
     margin-bottom: 5px;
     overflow: hidden;
+}
+/* 进度条 */
+.player-control__content_2{
+	width: 80%;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 4.5rem;
+	right: 13.5rem;
 }
 
 /* 播放暂停按钮 */
@@ -180,14 +196,17 @@
     cursor: pointer;
 }
 
+/* 声音 */
 .player-control__volume {
-    float: right;
+    /* float: right; */
     overflow: hidden;
+	position: absolute;
+	top: 2rem;
 }
 
 .control__volume--progress {
     float: left;
-    width: 100px;
+    width: 80px;
     position: relative;
     top: 8px;
 }
