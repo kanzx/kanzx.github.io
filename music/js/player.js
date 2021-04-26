@@ -34,7 +34,7 @@ class Musics {
             {
                 id: 2,
                 title: '让生命去感受',
-                singer: '',
+                singer: '关贵敏',
                 songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/让生命去感受.mp3',
                 imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/让生命去感受.jpg'
             },
@@ -55,7 +55,7 @@ class Musics {
 			{
 			    id: 5,
 			    title: '我问那南来北往的大雁',
-			    singer: '',
+			    singer: '关贵敏',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/我问那南来北往的大雁.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/我问那南来北往的大雁.jpg'
 			},
@@ -111,93 +111,142 @@ class Musics {
             {
                 id: 13,
                 title: '梦醒',
-                singer: '',
+                singer: '姜敏',
                 songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/梦醒.mp3',
                 imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/梦醒.jpg'
             },
 			{
 			    id: 14,
 			    title: '在这难忘的时刻',
-			    singer: '',
+			    singer: '关贵敏',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/在这难忘的时刻.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/在这难忘的时刻.jpg'
 			},
 			{
 			    id: 15,
+			    title: '阳光下遇见你（伴奏）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/阳光下遇见你（伴奏）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/阳光下遇见你（伴奏）.jpg'
+			},
+			{
+			    id: 16,
 			    title: '阳光下遇见你',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/阳光下遇见你.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/阳光下遇见你.jpg'
 			},
 			{
-			    id: 16,
+			    id: 17,
 			    title: '正气歌（伴奏）',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/正气歌（伴奏）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/正气歌（伴奏）.jpg'
 			},
 			{
-			    id: 17,
+			    id: 18,
 			    title: '为你而来',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/为你而来.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/为你而来.jpg'
 			},
 			{
-			    id: 18,
+			    id: 19,
 			    title: '纯真（《震撼》电影主题曲）',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/纯真（《震撼》电影主题曲）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/纯真（《震撼》电影主题曲）.jpg'
 			},
 			{
-			    id: 19,
+			    id: 20,
 			    title: '请与我比邻而坐',
-			    singer: '',
+			    singer: '关贵敏',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/请与我比邻而坐.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/请与我比邻而坐.jpg'
 			},
 			{
-			    id: 20,
+			    id: 21,
 			    title: '与我同行',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/与我同行.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/与我同行.jpg'
 			},
 			{
-			    id: 21,
+			    id: 22,
 			    title: '荷塘清音',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/荷塘清音.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/荷塘清音.jpg'
 			},
 			{
-			    id: 22,
+			    id: 23,
 			    title: '当法呈现在面前（钢琴独奏）',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/当法呈现在面前（钢琴独奏）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/当法呈现在面前（钢琴独奏）.jpg'
 			},
 			{
-			    id: 23,
+			    id: 24,
 			    title: '师恩颂（管弦乐伴奏）',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/师恩颂（管弦乐伴奏）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/师恩颂（管弦乐伴奏）.jpg'
 			},
 			{
-			    id: 24,
+			    id: 25,
 			    title: '师恩颂 - 2006小合唱',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/师恩颂 - 2006小合唱.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/师恩颂 - 2006小合唱.jpg'
 			},
 			{
-			    id: 25,
+			    id: 26,
 			    title: '找回真我（小提琴、钢琴、bE调）',
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/找回真我（小提琴、钢琴、bE调）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/找回真我（小提琴、钢琴、bE调）.jpg'
+			},
+			{
+			    id: 27,
+			    title: '找回真我（笛、钢琴、D调）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/找回真我（笛、钢琴、D调）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/找回真我（笛、钢琴、D调）.jpg'
+			},
+			{
+			    id: 28,
+			    title: '机缘莫误',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/机缘莫误.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/机缘莫误.jpg'
+			},
+			{
+			    id: 29,
+			    title: '天兵天将护法神',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/天兵天将护法神.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/天兵天将护法神.jpg'
+			},
+			{
+			    id: 30,
+			    title: '世界需要真善忍',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/世界需要真善忍.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/世界需要真善忍.jpg'
+			},
+			{
+			    id: 31,
+			    title: '最初的家园',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/最初的家园.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/最初的家园.jpg'
+			},
+			{
+			    id: 32,
+			    title: '群星报喜',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/群星报喜.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/群星报喜.jpg'
 			}
         ]
     }
