@@ -254,41 +254,6 @@ class Musics {
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/人间清流天上来.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/人间清流天上来.jpg'
-			},
-			{
-			    id: 34,
-			    title: '創世',
-			    singer: '',
-			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/創世.mp3',
-			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/img/創世.jpg'
-			},
-			{
-			    id: 35,
-			    title: '古風',
-			    singer: '',
-			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/古風.mp3',
-			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/img/創世.jpg'
-			},
-			{
-			    id: 36,
-			    title: '唐陣',
-			    singer: '',
-			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/唐陣.mp3',
-			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/img/創世.jpg'
-			},
-			{
-			    id: 37,
-			    title: '草原家情',
-			    singer: '',
-			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/草原家情.mp3',
-			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/img/創世.jpg'
-			},
-			{
-			    id: 38,
-			    title: '薩拉莎泰：卡門幻想曲',
-			    singer: '',
-			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/薩拉莎泰：卡門幻想曲.mp3',
-			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/shenyun/img/創世.jpg'
 			}
         ]
     }
