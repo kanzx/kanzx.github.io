@@ -289,7 +289,14 @@ class Musics {
 			    singer: '',
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/The Way Home（返本归真之路）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/The Way Home（返本归真之路）.jpg'
-			}
+			},
+			{
+			    id: 39,
+			    title: 'Saturday Morning（星期六早晨）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/Saturday Morning（星期六早晨）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/Saturday Morning（星期六早晨）.jpg'
+			},
         ]
     }
     //根据索引获取歌曲的方法
