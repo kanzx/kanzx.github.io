@@ -269,6 +269,27 @@ class Musics {
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/让他们都知道（伴奏版）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/与我同行.jpg'
 			},
+			{
+			    id: 36,
+			    title: '女声独唱：寻求 (钢琴伴奏)',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/女声独唱：寻求 (钢琴伴奏).mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/女声独唱：寻求 (钢琴伴奏).jpg'
+			},
+			{
+			    id: 37,
+			    title: '女声独唱：梦里的期盼',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/女声独唱：梦里的期盼.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/女声独唱：梦里的期盼.jpg'
+			},
+			{
+			    id: 38,
+			    title: 'The Way Home（返本归真之路）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/The Way Home（返本归真之路）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/The Way Home（返本归真之路）.jpg'
+			}
         ]
     }
     //根据索引获取歌曲的方法
