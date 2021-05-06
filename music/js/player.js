@@ -297,6 +297,27 @@ class Musics {
 			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/Saturday Morning（星期六早晨）.mp3',
 			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/Saturday Morning（星期六早晨）.jpg'
 			},
+			{
+			    id: 40,
+			    title: '我，义无反顾 - 伴奏',
+			    singer: '九洲',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/我，义无反顾 - 伴奏.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/我，义无反顾 - 伴奏.jpg'
+			},
+			{
+			    id: 41,
+			    title: '我，义无反顾合唱（女声领唱）',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/我，义无反顾合唱（女声领唱）.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/找回真我（小提琴、钢琴、bE调）.jpg'
+			},
+			{
+			    id: 42,
+			    title: '钢琴独奏曲：万象更新',
+			    singer: '',
+			    songUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/钢琴独奏曲：万象更新.mp3',
+			    imageUrl: 'https://www.tiandiming.com/9981/music/天音凈樂/img/正气歌（伴奏）.jpg'
+			}
         ]
     }
     //根据索引获取歌曲的方法
